@@ -1,5 +1,7 @@
 # Luhn
 
+[![JSR Score](https://jsr.io/badges/@hao/luhn/score)](https://jsr.io/@hao/luhn)
+
 Luhn Check Algorithm for JSR
 
 * No dependencies
