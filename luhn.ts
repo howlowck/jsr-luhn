@@ -1,9 +1,9 @@
-export const check = (numStr: string): boolean => {
+export function check (numStr: string): boolean {
   const checksum: number = +numStr.slice(-1);
   const numRevArray: string[] = [...numStr.slice(0, -1)].reverse();
   let total = 0;
   for (let i = 0; i < numRevArray.length; i++) {
-    let num = numRevArray[i];
+    const num = numRevArray[i];
     let s: number;
     let val: number;
     let rem: number;
