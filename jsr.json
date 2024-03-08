@@ -1,0 +1,5 @@
+{
+  "name": "@hao/luhn",
+  "version": "1.0.0",
+  "exports": "./luhn.ts"
+}
