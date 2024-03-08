@@ -1,4 +1,10 @@
-export function check (numStr: string): boolean {
+/**
+ * This function checks for the validity of a string (for example credit card string) using the Luhn Check algorithm
+ *
+ * @param numStr
+ * @returns
+ */
+export function check(numStr: string): boolean {
   const checksum: number = +numStr.slice(-1);
   const numRevArray: string[] = [...numStr.slice(0, -1)].reverse();
   let total = 0;
@@ -18,4 +24,4 @@ export function check (numStr: string): boolean {
   }
   total += checksum;
   return total % 10 === 0;
-};
+}
