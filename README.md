@@ -3,7 +3,7 @@
 Luhn Check Algorithm for JSR
 
 * No dependencies
-* simple interface
+* Simple interface
 
 ## Example
 
